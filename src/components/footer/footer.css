@@ -1,0 +1,171 @@
+.arrow-shape{
+   
+    font-size: 25px;
+   
+    width: 30px !important;
+    margin-left: auto !important;
+    display: flex;
+   
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+footer .fi-row{
+  
+    padding: 16px 0 ; 
+}
+footer .fi-row img[alt="logo"]{
+    cursor: pointer;
+    width: 140px;
+}
+footer .fi-row p{
+    margin-top: 16px;
+    font-style: italic;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.fi-row .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fi-row .content svg{
+    font-size: 32px;
+    color: var(--main-color);
+}
+.content .info p{
+    color:var(--main-color);
+    margin: 0 0;
+    text-align: left;
+    padding: 2px 0;
+    
+}
+
+footer .widget{
+  padding: 8px 0;
+}
+footer .widget h2{
+    color: var(--main-color);
+    font-size:28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+footer .widget ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+    
+}
+footer .widget li{
+    transition: ease-in-out 0.3s;
+  
+}
+footer .widget ul li:hover{
+   transform: translate(10px);
+  
+  
+}
+footer .widget ul li a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize
+}
+footer .widget .email{
+ 
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    justify-content: center;
+    width: 80%;
+}
+footer .widget .email input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--main-color);
+    outline: none;
+    color: var(--main-color);
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+footer .widget .email button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--btn-color);
+    outline: none;
+    color: #fff;
+    background-color: var(--sec-color);
+    transition: ease-in-out 0.3s;
+    font-size: 18px;
+  
+    display: block;
+    width: 100%;
+}
+footer .widget .email button:hover{
+    background-color: var(--sec-color);
+    color: #fff;
+}
+footer .widget .icons{
+    margin-top: 28px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    
+    
+}
+footer .widget .icons svg{
+    font-size: 28px;
+    color: var(--main-color);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+footer .widget .icons svg:hover{
+    color: var(--sec-color);
+}
+footer .copy{
+    text-align: center;
+    font-size: clamp(16px, 2vw, 24px);
+    text-transform: capitalize;
+    font-style: italic;
+    color: var(--main-color);
+    margin: 16px 0;
+    font-weight: bold;
+}
+@media (max-width:768px){
+    footer .fi-row img{
+        max-width: 100%;
+      
+        margin: auto;
+        display: block;
+    }
+    footer .content{
+      justify-content: center;
+    }
+    footer .fi-row p{
+        text-align: center;
+    }
+    footer .widget h2{
+        text-align: center  ;
+    
+    }
+    footer .widget ul li {
+        text-align: center;
+   
+    }
+    footer .widget .email{
+        width: 85%;
+        margin: auto;
+    }
+      footer .widget .icons{
+        justify-content: center;
+         width: 85%;
+        margin: 28px auto;
+    }
+}

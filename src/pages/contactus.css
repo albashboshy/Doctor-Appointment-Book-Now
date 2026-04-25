@@ -1,0 +1,191 @@
+:root{
+  --main-color:#1f2278;
+  --sec-color:#f17732;
+  --btn-color:#565acf;
+}
+li{
+    list-style: none;
+}
+.contact-us{
+    padding: 40px 0;
+    margin: 30px 0 0 ;
+
+}
+.contact-us>.container{
+    background-color: #f2f2f2d8;
+    border-radius: 16px;
+    padding: 20px ;
+}
+.form-control{
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto;
+ 
+   
+  
+}
+
+
+
+.form-control input,select,textarea{
+    display: block;
+    width: 100%;
+    margin: 18px 0;
+    padding: 16px 8px;
+    outline: none;
+    border: 1px solid  var(--btn-color);
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 8px;
+}
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox
+input[type="number"] {
+  -moz-appearance: textfield;
+} */
+.form-control select{
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.form-control textarea{
+    margin: 10px 0;
+    display: block;
+    min-height: 170px;
+    resize: none;
+}
+.form-control input[type='submit']{
+    background-color:var(--sec-color);
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+    border-radius: 4px;
+    font-size:clamp(16px, 2.5vw, 24px);
+    transition: ease-in-out 0.3s;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.form-control input[type='submit']:hover{
+    background-color:var(--btn-color);
+    color:#fff;
+}
+.side{
+    background-image:url('../assets/overviews.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    margin: 38px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    
+}   
+.side .overlay{
+    background-color: #8056cfb9;
+    height: 100%;
+    width: 100%;
+    padding: 32px ;
+}
+.side .overlay h3:first-child{
+    font-size: clamp(24px, 2.5vw, 40px);
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+    color: white;
+}
+  .side .overlay hr{
+    margin: 0;
+    width: 60%;
+    background-color: #8084d9 ;
+  }
+.side .overlay .location,.email{
+   color: white;
+   display: flex;
+   gap: 25px;
+   font-size: clamp(18px , 2.5vw, 28px);
+   align-items: center;
+   text-transform: capitalize;
+   padding: 8px 0;
+}
+.overlay .address,.em-phone, .thephone{
+    color: #fff;
+
+}
+.overlay .follow-up{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+    color: #fff;
+    padding: 8px 0;
+    cursor: pointer;
+
+}
+.overlay .icons{
+    display: flex;
+    padding: 8px 0;
+    gap:18px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  
+}
+.overlay .icons svg{
+      transition: ease-in-out 0.3s;
+}
+.overlay .icons svg:hover{
+    color: black;
+}
+.info-cards{
+    padding: 40px 0;
+    margin: 40px 0;
+
+}
+.info-cards .inf-card{
+    background-color: white;
+    padding:16px 20px ;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 18px 0;
+}
+.info-cards .inf-card svg{
+    font-size: 33px;
+
+    color: #484444;
+    cursor: pointer;
+}
+.info-cards .inf-card:hover svg{
+   animation:  move 0.02s ease-in-out infinite alternate;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.inf-card h3{
+    margin-top: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.inf-card p{
+    margin: 0;
+    font-size: 20px;
+    color: #444444;
+}

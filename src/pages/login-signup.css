@@ -1,0 +1,69 @@
+
+
+.login{
+    padding: 40px 0;
+    background-color: #f2f2f2d8;
+    border-radius: 16px;
+    margin: 40px 0;
+}
+.login .shape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 20px 0;
+
+}
+.shape img{
+   width: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+    max-width: 100%;
+  
+}
+.form-control {
+    border: 1px solid var(--main-color) !important;
+}
+.lg-in{
+     width: 90%;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+.lg-in:hover{
+    background-color: var(--btn-color)!important ;
+}
+.forgetpassword,.register,.new-account{
+    margin-top: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.new-account{
+    color: #444444;
+}
+.register{
+    background-color: var(--sec-color);
+    color: #fff;
+    padding: 16px 8px;
+    border-radius: 8px;
+    width: 90%;
+    text-align: center;
+    margin: 12px 0;
+    transition: ease-in-out 0.3s;
+}
+.register:hover{
+    background-color:#e78f5d;
+}
+.new-account{
+    margin-top: 20px;
+    color: #504444;
+    font-weight: bold;
+    font-size: 20px;
+}

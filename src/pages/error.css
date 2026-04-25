@@ -1,0 +1,78 @@
+.error{
+    margin: 30px 0;
+}
+.error-page{
+    padding: 16px 0;
+    background-color: #fff;
+}
+.error-page h2{
+   
+    font-size: 140px;
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.error-page .emoji{
+    animation: emoj 1s ease-in-out infinite alternate     ;
+}
+@keyframes emoj{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px)
+    };
+  
+    50%{
+        opacity: 0.8;
+        transform: translateY(0px);
+    }
+
+ 
+    100%{
+        opacity: 0.6;
+        transform: translateY(10px)
+    }
+    
+}
+.error-page h4{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.error-page h5{
+    font-size: 20px;
+
+font-style: italic;  
+    color: var(--main-color);
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.5;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 16px 4px;
+
+}
+.btn-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.er-btn{
+    width: fit-content;
+    border-radius: 8px !important;
+    padding:  16px  28px !important;
+    text-align: center;
+    transition: ease-in-out 0.3s ;
+}
+.er-btn:hover{
+    background-color: blue;
+}
+.er-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    text-transform: capitalize;
+}

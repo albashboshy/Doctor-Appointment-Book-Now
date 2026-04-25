@@ -1,0 +1,63 @@
+.book{
+
+    margin: 30px 0;
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid red !important;
+   
+    width: 90% !important;
+}
+
+ form h2{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 16px 0;
+    color: blue !important;
+    font-weight: bold;
+
+}
+
+.book .form-btn{
+    border-radius: 8px;
+    display: block;
+    width: 90%;
+    padding: 12px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.back-side{
+    position: relative;
+
+
+}
+.big-shape{
+    margin: 50px 0;
+}
+.back-side::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   background-color:transparent;
+   border:3px solid var(--main-color);
+   left: 0;
+   width: 90%;
+   height: 90%;
+   z-index: -1;
+   border-radius: 16px;
+
+}
+.fm{
+    border-radius: 20px !important  ;
+}
+.form-btn{
+    letter-spacing: 1.4px;
+}
+.mess{
+   width: 210px ; 
+   margin: auto;
+   font-weight: bold;
+  
+
+}

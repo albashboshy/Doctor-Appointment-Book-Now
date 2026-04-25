@@ -1,0 +1,42 @@
+.questions {
+    padding: 30px 0;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.questions .big-card{
+    margin: 10px 0;
+   
+   
+    border-radius: 8px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.big-card .btn-primary{
+   font-weight: bold;
+    padding: 16px 8px;
+    font-size: 18px;
+    text-transform: capitalize;
+    word-spacing: 2px ;
+    border-radius: 4px;
+
+}
+.big-card svg{
+    font-size: 25px;
+    color: #fff;
+}
+.big-card .btn-primary.active{
+    background-color: var(--sec-color);
+    color: #fff;
+}
+.big-card .btn-primary.active svg{
+    color: #fff;
+}
+.card-body{
+    padding: 24px 8px;
+    font-style: italic;
+    transition:  ease-in-out 0.5s;
+       color: #454545;
+    font-size:20px;
+    line-height: 1.8;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.top {
+  height: 300px;
+
+}
+
+.bottom {
+  height: 0px;
+
+}
+
+.wave svg {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+.wave svg {
+  transform: rotate(180deg);
+}
+.wave path {
+  fill:var(--btn-color); /* same as top section */
+}
